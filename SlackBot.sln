@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SlackBot", "SlackBot\SlackBot.njsproj", "{87AE26B1-64AF-48AB-B564-DCE54DAD6A3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{001C4182-BC24-418E-BF66-96B157CDEBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87AE26B1-64AF-48AB-B564-DCE54DAD6A3D} = {001C4182-BC24-418E-BF66-96B157CDEBD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2021BDEB-A577-43AF-AC79-90B9D51958FE}
