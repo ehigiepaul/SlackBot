@@ -1,0 +1,22 @@
+@hostname = localhost
+@port = 1337
+@host = http://{{hostname}}:{{port}}
+@contentType = application/json
+
+POST {{host}}/authors/create
+Content-Type:{{contentType}}
+
+{
+    "name": "Joe",
+    "permissions": "author"
+}
+
+###
+
+# Comments
+GET {{host}}/health-check
+GET {{host}}/hello-repsonse
+
+###
+
+GET http://bing.com/

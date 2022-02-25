@@ -1,0 +1,3 @@
+C:\Users\ehigi\source\repos\SlackBot\SlackBot\obj\Debug\SlackBot.njsproj.AssemblyReference.cache
+C:\Users\ehigi\source\repos\SlackBot\SlackBot\obj\Debug\SlackBot.njsproj.CoreCompileInputs.cache
+C:\Users\ehigi\source\repos\SlackBot\SlackBot\bin\Microsoft.NodejsTools.WebRole.dll
